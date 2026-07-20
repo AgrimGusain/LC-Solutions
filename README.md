@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 7
-- 🟩 **Easy**: 1
+- **Total Solved**: 8
+- 🟩 **Easy**: 2
 - 🟨 **Medium**: 6
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0242. Valid Anagram](./0242_valid-anagram_easy) | 🟩 easy | cpp | [View Solution](./0242_valid-anagram_easy/solution.c) \| [Read AI Insights](./0242_valid-anagram_easy/README.md) |
 | [0238. Product Of Array Except Self](./0238_product-of-array-except-self_medium) | 🟨 medium | cpp | [View Solution](./0238_product-of-array-except-self_medium/solution.c) \| [Read AI Insights](./0238_product-of-array-except-self_medium/README.md) |
 | [0238. Product Of Array Except Self](./0238_product-of-array-except-self_medium) | 🟨 medium | cpp | [View Solution](./0238_product-of-array-except-self_medium/solution.c) \| [Read AI Insights](./0238_product-of-array-except-self_medium/README.md) |
 | [0189. Rotate Array](./0189_rotate-array_medium) | 🟨 medium | cpp | [View Solution](./0189_rotate-array_medium/solution.c) \| [Read AI Insights](./0189_rotate-array_medium/README.md) |
