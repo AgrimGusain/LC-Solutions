@@ -46,6 +46,7 @@ Follow up:
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
+        k %= nums.size();
         reverse(nums.begin(), nums.end());
         reverse(nums.begin(), nums.begin()+k);
         reverse(nums.begin()+k, nums.end());
@@ -54,26 +55,23 @@ public:
 ```
 
 ## Code Explanation
-The submitted code is a solution to the "Rotate Array" problem, which requires rotating an integer array to the right by a specified number of steps. Here's a step-by-step breakdown of how the code works:
-1. The `reverse` function is used to reverse the entire array. This is done to set up the array for the subsequent rotations.
-2. The first `k` elements of the reversed array are then reversed again. This effectively moves the last `k` elements of the original array to the beginning of the array.
-3. The remaining elements (from index `k` to the end of the array) are reversed again. This restores the original order of the elements that were not moved to the beginning of the array.
-The combination of these three reversal operations has the effect of rotating the original array to the right by `k` steps.
+The provided code is a solution to the "Rotate Array" problem on LeetCode. It takes an integer array `nums` and an integer `k` as input, where `k` represents the number of steps to rotate the array to the right. Here's a step-by-step breakdown of how the code works:
+1. `k %= nums.size();`: This line calculates the effective number of steps to rotate the array. Since rotating the array by its length is equivalent to not rotating it at all, we can reduce `k` to its remainder when divided by the length of the array. This is done using the modulo operator (`%`).
+2. `reverse(nums.begin(), nums.end());`: This line reverses the entire array in-place. This is the first step in the rotation process.
+3. `reverse(nums.begin(), nums.begin()+k);`: This line reverses the first `k` elements of the reversed array. This will put the last `k` elements of the original array in their correct position in the rotated array.
+4. `reverse(nums.begin()+k, nums.end());`: This line reverses the remaining elements of the reversed array (i.e., from index `k` to the end). This will put the first `n-k` elements of the original array in their correct position in the rotated array, where `n` is the length of the array.
 
 ## Complexity Analysis
-- **Time Complexity:** The time complexity of this solution is O(n), where n is the number of elements in the array. This is because the `reverse` function is called three times, each of which has a time complexity of O(n). Since these operations are performed sequentially, the overall time complexity remains O(n).
-- **Space Complexity:** The space complexity of this solution is O(1), which means it uses a constant amount of extra space. This is because the `reverse` function reverses the array in-place, without requiring any additional space that scales with the size of the input array.
+- **Time Complexity:** The time complexity of this solution is O(n), where n is the length of the input array. The `reverse` function is called three times, and each call takes linear time. However, since the `reverse` function only needs to visit each element once to reverse the array, the total time complexity remains linear.
+- **Space Complexity:** The space complexity of this solution is O(1), which means it uses constant extra space. The `reverse` function is an in-place algorithm, meaning it only uses a constant amount of extra space to store temporary values, and does not allocate any additional space that scales with the input size.
 
 ## Optimizations
-The code is already quite optimized, as it only uses a constant amount of extra space and has a time complexity of O(n). However, one potential improvement is to handle the case where `k` is greater than the length of the array. In this case, the effective rotation is `k % n`, where `n` is the length of the array. This is because rotating the array by its length is equivalent to not rotating it at all. By taking the modulus of `k` with the length of the array, we can reduce the number of rotations required and improve the performance of the algorithm.
+The provided code is already optimal in terms of time and space complexity. However, it's worth noting that this solution assumes that the input array is non-empty and that `k` is a non-negative integer. To make the solution more robust, you could add error checking to handle these edge cases. For example, you could check if the input array is empty or if `k` is negative, and handle these cases accordingly.
 
 ## Interview Explanation
-Here's a script for how a candidate should verbally explain this solution to an interviewer:
-"Okay, so this problem is asking us to rotate an array to the right by a specified number of steps. One way to approach this is to think about how we can use the `reverse` function to achieve the desired rotation.
-"To start, I'm going to reverse the entire array. This might seem counterintuitive, but it sets up the array for the subsequent rotations.
-"Next, I'm going to reverse the first `k` elements of the reversed array. This effectively moves the last `k` elements of the original array to the beginning of the array.
-"Finally, I'm going to reverse the remaining elements, from index `k` to the end of the array. This restores the original order of the elements that were not moved to the beginning of the array.
-"The combination of these three reversal operations has the effect of rotating the original array to the right by `k` steps.
-"In terms of complexity, this solution has a time complexity of O(n), where n is the number of elements in the array. This is because we're calling the `reverse` function three times, each of which has a time complexity of O(n).
-"The space complexity is O(1), which means we're using a constant amount of extra space. This is because the `reverse` function reverses the array in-place, without requiring any additional space that scales with the size of the input array.
-"One thing to note is that if `k` is greater than the length of the array, we can optimize the solution by taking the modulus of `k` with the length of the array. This reduces the number of rotations required and improves the performance of the algorithm."
+If a candidate were to explain this solution to me in an interview, I would expect them to break it down step-by-step, just like in the code explanation above. Here's a conversational script that demonstrates how a candidate might explain this solution:
+"Okay, so the problem asks us to rotate an array to the right by a certain number of steps. To start, we can observe that rotating the array by its length is equivalent to not rotating it at all. So, we can reduce the number of steps to its remainder when divided by the length of the array, using the modulo operator.
+"Next, we can reverse the entire array in-place. This might seem counterintuitive, but it's actually the first step in the rotation process. After reversing the entire array, we can then reverse the first `k` elements of the reversed array, where `k` is the effective number of steps to rotate. This will put the last `k` elements of the original array in their correct position in the rotated array.
+"Finally, we can reverse the remaining elements of the reversed array, from index `k` to the end. This will put the first `n-k` elements of the original array in their correct position in the rotated array, where `n` is the length of the array.
+"In terms of time and space complexity, this solution is optimal. We only need to visit each element once to reverse the array, so the time complexity is linear. And since we're only using a constant amount of extra space to store temporary values, the space complexity is constant.
+"I think this solution is pretty elegant, and it works for any non-empty input array and non-negative number of steps. Of course, we could add some error checking to handle edge cases, but overall I'm pretty happy with this solution."
