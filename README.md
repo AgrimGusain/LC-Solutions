@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 8
-- 🟩 **Easy**: 2
+- **Total Solved**: 9
+- 🟩 **Easy**: 3
 - 🟨 **Medium**: 6
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0206. Reverse Linked List](./0206_reverse-linked-list_easy) | 🟩 easy | cpp | [View Solution](./0206_reverse-linked-list_easy/solution.c) \| [Read AI Insights](./0206_reverse-linked-list_easy/README.md) |
 | [0242. Valid Anagram](./0242_valid-anagram_easy) | 🟩 easy | cpp | [View Solution](./0242_valid-anagram_easy/solution.c) \| [Read AI Insights](./0242_valid-anagram_easy/README.md) |
 | [0238. Product Of Array Except Self](./0238_product-of-array-except-self_medium) | 🟨 medium | cpp | [View Solution](./0238_product-of-array-except-self_medium/solution.c) \| [Read AI Insights](./0238_product-of-array-except-self_medium/README.md) |
 | [0238. Product Of Array Except Self](./0238_product-of-array-except-self_medium) | 🟨 medium | cpp | [View Solution](./0238_product-of-array-except-self_medium/solution.c) \| [Read AI Insights](./0238_product-of-array-except-self_medium/README.md) |
