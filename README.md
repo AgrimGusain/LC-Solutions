@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 5
+- **Total Solved**: 6
 - 🟩 **Easy**: 1
-- 🟨 **Medium**: 4
+- 🟨 **Medium**: 5
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0238. Product Of Array Except Self](./0238_product-of-array-except-self_medium) | 🟨 medium | cpp | [View Solution](./0238_product-of-array-except-self_medium/solution.c) \| [Read AI Insights](./0238_product-of-array-except-self_medium/README.md) |
 | [0189. Rotate Array](./0189_rotate-array_medium) | 🟨 medium | cpp | [View Solution](./0189_rotate-array_medium/solution.c) \| [Read AI Insights](./0189_rotate-array_medium/README.md) |
 | [0189. Rotate Array](./0189_rotate-array_medium) | 🟨 medium | cpp | [View Solution](./0189_rotate-array_medium/solution.c) \| [Read AI Insights](./0189_rotate-array_medium/README.md) |
 | [0056. Merge Intervals](./0056_merge-intervals_medium) | 🟨 medium | cpp | [View Solution](./0056_merge-intervals_medium/solution.c) \| [Read AI Insights](./0056_merge-intervals_medium/README.md) |
