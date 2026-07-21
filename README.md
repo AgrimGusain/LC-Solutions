@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 12
-- 🟩 **Easy**: 6
+- **Total Solved**: 13
+- 🟩 **Easy**: 7
 - 🟨 **Medium**: 6
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0496. Next Greater Element I](./0496_next-greater-element-i_easy) | 🟩 easy | cpp | [View Solution](./0496_next-greater-element-i_easy/solution.c) \| [Read AI Insights](./0496_next-greater-element-i_easy/README.md) |
 | [0020. Valid Parentheses](./0020_valid-parentheses_easy) | 🟩 easy | cpp | [View Solution](./0020_valid-parentheses_easy/solution.c) \| [Read AI Insights](./0020_valid-parentheses_easy/README.md) |
 | [0141. Linked List Cycle](./0141_linked-list-cycle_easy) | 🟩 easy | cpp | [View Solution](./0141_linked-list-cycle_easy/solution.c) \| [Read AI Insights](./0141_linked-list-cycle_easy/README.md) |
 | [0876. Middle Of The Linked List](./0876_middle-of-the-linked-list_easy) | 🟩 easy | cpp | [View Solution](./0876_middle-of-the-linked-list_easy/solution.c) \| [Read AI Insights](./0876_middle-of-the-linked-list_easy/README.md) |
