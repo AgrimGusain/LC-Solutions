@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 22
-- 🟩 **Easy**: 15
+- **Total Solved**: 23
+- 🟩 **Easy**: 16
 - 🟨 **Medium**: 7
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0175. Combine Two Tables](./0175_combine-two-tables_easy) | 🟩 easy | mysql | [View Solution](./0175_combine-two-tables_easy/solution.txt) \| [Read AI Insights](./0175_combine-two-tables_easy/README.md) |
 | [1683. Invalid Tweets](./1683_invalid-tweets_easy) | 🟩 easy | mysql | [View Solution](./1683_invalid-tweets_easy/solution.txt) \| [Read AI Insights](./1683_invalid-tweets_easy/README.md) |
 | [1148. Article Views I](./1148_article-views-i_easy) | 🟩 easy | mysql | [View Solution](./1148_article-views-i_easy/solution.txt) \| [Read AI Insights](./1148_article-views-i_easy/README.md) |
 | [0595. Big Countries](./0595_big-countries_easy) | 🟩 easy | mysql | [View Solution](./0595_big-countries_easy/solution.txt) \| [Read AI Insights](./0595_big-countries_easy/README.md) |
