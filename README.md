@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 16
-- 🟩 **Easy**: 9
+- **Total Solved**: 17
+- 🟩 **Easy**: 10
 - 🟨 **Medium**: 7
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0700. Search In A Binary Search Tree](./0700_search-in-a-binary-search-tree_easy) | 🟩 easy | cpp | [View Solution](./0700_search-in-a-binary-search-tree_easy/solution.c) \| [Read AI Insights](./0700_search-in-a-binary-search-tree_easy/README.md) |
 | [0104. Maximum Depth Of Binary Tree](./0104_maximum-depth-of-binary-tree_easy) | 🟩 easy | cpp | [View Solution](./0104_maximum-depth-of-binary-tree_easy/solution.c) \| [Read AI Insights](./0104_maximum-depth-of-binary-tree_easy/README.md) |
 | [0104. Maximum Depth Of Binary Tree](./0104_maximum-depth-of-binary-tree_easy) | 🟩 easy | cpp | [View Solution](./0104_maximum-depth-of-binary-tree_easy/solution.c) \| [Read AI Insights](./0104_maximum-depth-of-binary-tree_easy/README.md) |
 | [0102. Binary Tree Level Order Traversal](./0102_binary-tree-level-order-traversal_medium) | 🟨 medium | cpp | [View Solution](./0102_binary-tree-level-order-traversal_medium/solution.c) \| [Read AI Insights](./0102_binary-tree-level-order-traversal_medium/README.md) |
