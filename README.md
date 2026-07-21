@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 21
-- 🟩 **Easy**: 14
+- **Total Solved**: 22
+- 🟩 **Easy**: 15
 - 🟨 **Medium**: 7
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [1683. Invalid Tweets](./1683_invalid-tweets_easy) | 🟩 easy | mysql | [View Solution](./1683_invalid-tweets_easy/solution.txt) \| [Read AI Insights](./1683_invalid-tweets_easy/README.md) |
 | [1148. Article Views I](./1148_article-views-i_easy) | 🟩 easy | mysql | [View Solution](./1148_article-views-i_easy/solution.txt) \| [Read AI Insights](./1148_article-views-i_easy/README.md) |
 | [0595. Big Countries](./0595_big-countries_easy) | 🟩 easy | mysql | [View Solution](./0595_big-countries_easy/solution.txt) \| [Read AI Insights](./0595_big-countries_easy/README.md) |
 | [1757. Recyclable And Low Fat Products](./1757_recyclable-and-low-fat-products_easy) | 🟩 easy | mysql | [View Solution](./1757_recyclable-and-low-fat-products_easy/solution.txt) \| [Read AI Insights](./1757_recyclable-and-low-fat-products_easy/README.md) |
