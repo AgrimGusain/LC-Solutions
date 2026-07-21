@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 13
+- **Total Solved**: 14
 - 🟩 **Easy**: 7
-- 🟨 **Medium**: 6
+- 🟨 **Medium**: 7
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0102. Binary Tree Level Order Traversal](./0102_binary-tree-level-order-traversal_medium) | 🟨 medium | cpp | [View Solution](./0102_binary-tree-level-order-traversal_medium/solution.c) \| [Read AI Insights](./0102_binary-tree-level-order-traversal_medium/README.md) |
 | [0496. Next Greater Element I](./0496_next-greater-element-i_easy) | 🟩 easy | cpp | [View Solution](./0496_next-greater-element-i_easy/solution.c) \| [Read AI Insights](./0496_next-greater-element-i_easy/README.md) |
 | [0020. Valid Parentheses](./0020_valid-parentheses_easy) | 🟩 easy | cpp | [View Solution](./0020_valid-parentheses_easy/solution.c) \| [Read AI Insights](./0020_valid-parentheses_easy/README.md) |
 | [0141. Linked List Cycle](./0141_linked-list-cycle_easy) | 🟩 easy | cpp | [View Solution](./0141_linked-list-cycle_easy/solution.c) \| [Read AI Insights](./0141_linked-list-cycle_easy/README.md) |
