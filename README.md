@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 26
+- **Total Solved**: 27
 - 🟩 **Easy**: 17
-- 🟨 **Medium**: 9
+- 🟨 **Medium**: 10
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0322. Coin Change](./0322_coin-change_medium) | 🟨 medium | cpp | [View Solution](./0322_coin-change_medium/solution.c) \| [Read AI Insights](./0322_coin-change_medium/README.md) |
 | [0322. Coin Change](./0322_coin-change_medium) | 🟨 medium | cpp | [View Solution](./0322_coin-change_medium/solution.c) \| [Read AI Insights](./0322_coin-change_medium/README.md) |
 | [0994. Rotting Oranges](./0994_rotting-oranges_medium) | 🟨 medium |  | [View Solution](./0994_rotting-oranges_medium/solution.txt) \| [Read AI Insights](./0994_rotting-oranges_medium/README.md) |
 | [0181. Employees Earning More Than Their Managers](./0181_employees-earning-more-than-their-managers_easy) | 🟩 easy | mysql | [View Solution](./0181_employees-earning-more-than-their-managers_easy/solution.txt) \| [Read AI Insights](./0181_employees-earning-more-than-their-managers_easy/README.md) |
