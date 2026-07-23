@@ -3,14 +3,15 @@
 An automatically generated log of my LeetCode journey, powered by [LeetCode AI Tracker](https://github.com).
 
 ## 📊 Global Statistics
-- **Total Solved**: 24
+- **Total Solved**: 25
 - 🟩 **Easy**: 17
-- 🟨 **Medium**: 7
+- 🟨 **Medium**: 8
 - 🟥 **Hard**: 0
 
 ## 🧠 Recent Solutions
 | Problem | Difficulty | Language | Details |
 | ------- | ---------- | -------- | ------- |
+| [0994. Rotting Oranges](./0994_rotting-oranges_medium) | 🟨 medium |  | [View Solution](./0994_rotting-oranges_medium/solution.txt) \| [Read AI Insights](./0994_rotting-oranges_medium/README.md) |
 | [0181. Employees Earning More Than Their Managers](./0181_employees-earning-more-than-their-managers_easy) | 🟩 easy | mysql | [View Solution](./0181_employees-earning-more-than-their-managers_easy/solution.txt) \| [Read AI Insights](./0181_employees-earning-more-than-their-managers_easy/README.md) |
 | [0175. Combine Two Tables](./0175_combine-two-tables_easy) | 🟩 easy | mysql | [View Solution](./0175_combine-two-tables_easy/solution.txt) \| [Read AI Insights](./0175_combine-two-tables_easy/README.md) |
 | [1683. Invalid Tweets](./1683_invalid-tweets_easy) | 🟩 easy | mysql | [View Solution](./1683_invalid-tweets_easy/solution.txt) \| [Read AI Insights](./1683_invalid-tweets_easy/README.md) |
